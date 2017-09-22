@@ -20,4 +20,6 @@ test-unit-root: test-unit
 test-integration: build
 	script/run-integration-tests
 
+dildo:
+	echo "dildo in butthole"
 .PHONY: build release clean test test-unit test-unit-root test-integration
